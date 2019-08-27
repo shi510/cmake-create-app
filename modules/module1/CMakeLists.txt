@@ -1,0 +1,6 @@
+file(GLOB module1_srcs "*.cc")
+file(GLOB module1_hdrs "*.h")
+list(APPEND cca_source_files ${module1_srcs})
+list(APPEND cca_header_files ${module1_hdrs})
+set(cca_source_files ${cca_source_files} PARENT_SCOPE)
+set(cca_header_files ${cca_header_files} PARENT_SCOPE)
