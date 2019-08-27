@@ -14,7 +14,7 @@ cmake -DCMAKE_TOOLCHAIN_FILE=/path/to/your/TOOLCHAIN_FILE -DUSE_OPENCV=ON ..
 ./examples/example1/example1
 ```
 The CMAKE_TOOLCHAIN_FILE and USE_OPENCV are optional.  
-You can install OpenCV library using vcpkg.  
+You can install OpenCV library using [vcpkg](https://github.com/microsoft/vcpkg).  
 ```
 git clone https://github.com/microsoft/vcpkg
 On Windows> ./bootstrap-vcpkg.bat
