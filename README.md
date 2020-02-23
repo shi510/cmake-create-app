@@ -1,4 +1,4 @@
-# cmake-create-app
+# create-cmake-app
 Create default c++ application.  
 This project creates default c++ cmake project.  
 It produces a basic library that name is "module".  
